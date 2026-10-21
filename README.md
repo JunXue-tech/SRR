@@ -77,7 +77,7 @@ GPU_IDS=0 bash eval_teacher.sh --xlsr-checkpoint weights/xlsr2_300m.pt \
   --sr-manifest data/pairs/test.jsonl --output-dir results/teacher
 ```
 
-Evaluation uses **only the first 64,600 samples (4.0375 s)** after conversion to mono 16-kHz audio; shorter utterances are zero-padded. There is no sliding-window inference or score averaging. The teacher checkpoint includes response-normalization buffers. Scores are fake-class logits (higher means more likely Fake); output files contain utterance ID, label, and score, with EER and AUC in `results.json`. Default inference uses BF16; `--fp32` disables it.
+Evaluation uses **only the first 64,600 samples (4.0375 s)** after conversion to mono 16-kHz audio; shorter utterances are zero-padded. 
 
 ## Acknowledgments
 
