@@ -1,0 +1,6 @@
+# Install matching CUDA-enabled torch and torchaudio builds separately.
+# Install fairseq from its official repository; see README.md.
+numpy>=1.23,<2
+scipy>=1.10,<2
+scikit-learn>=1.2,<2
+soundfile>=0.12,<1
