@@ -1,6 +1,6 @@
 # SRR
 
-Speech deepfake detection using super-resolution responses and teacher–student distillation.
+# Exploiting Super-Resolution Response Discrepancies for Speech Deepfake Detection
 
 ## 1. Dependencies
 
